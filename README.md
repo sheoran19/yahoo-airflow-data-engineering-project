@@ -6,16 +6,14 @@
 This project creates a dynamic, scalable, and secure pipeline for processing Yahoo API data, using GCP services, Airflow, FastAPI, and Docker. It seamlessly ingests, validates, transforms, and delivers data, providing actionable insights through well-defined APIs.
 
 
-## Key Objectives and Project Goals
+## Key Objectives
 
-- **Efficient Data Processing**: Leverage Airflow, Python, and Pandas to efficiently ingest, validate, and transform data from **Yahoo APIs** into actionable insights.
-- **Data Integrity and Quality**: Utilize **Great Expectations** for thorough data validation to ensure accuracy and reliability of source data before any processing.
-- **Scalable Solutions**: Deploy on **GCP Compute Engine** and utilize **CloudSQL** to ensure the system scales seamlessly with increasing data volumes, maintaining high performance and availability.
-- **Data-Driven Decision Making**: Provide clients with access to processed data through **FastAPI endpoints**, facilitating insightful analysis and informed decision-making.
-- **System Reliability and Responsiveness**: Integrate **Slack Webhooks** for real-time alerts to monitor system health and notify of critical events, ensuring high system reliability.
-- **Security and Compliance**: Ensure that the system adheres to the highest standards of data security and privacy, protecting sensitive information and complying with regulatory requirements.
-- **Cloud-Based Architecture**: Leverage the power of cloud computing with **GCP** to handle vast amounts of data, offering a robust, secure, and flexible environment.
-- **Client Reporting and Accessibility**: Build and maintain **FastAPI endpoints** for efficient data sharing with clients, ensuring data is accessible and actionable.
+- Efficiently process vast amounts of data from Yahoo APIs.
+- Ensure data integrity and quality through rigorous validation.
+- Deliver scalable solutions with GCP's computing and storage services.
+- Facilitate data-driven decision-making for clients via FastAPI endpoints.
+- Maintain high system reliability and instant alerting mechanisms.
+
 
 This comprehensive approach combines the project's overarching goals with specific objectives, laying a foundation for a robust, scalable, and efficient data processing pipeline.
 
