@@ -1,5 +1,32 @@
 
 # Yahoo Data Pipeline using Airflow
+===================================
+
+
+│.              
+├── airflow  
+|   └── airflow.cfg                           
+│   └── dags 
+|       └── yahoo_dag.py
+│
+├── app                                 
+│   ├── main.py                            
+│   ├── models.py                          
+│   └── database.py 
+│
+├── docker    
+│   ├── Dockerfile                        
+│   └── docker-compose.yaml                           
+│
+└── etl                                 
+|   └── yahoo_data_etl.py 
+|
+├── .env                               
+├── README.md                          
+├── application_default_credentials.json 
+├── architecture_diagram.png            
+├── market_codes.csv                  
+├── requirements.txt     
 
 ## Overview
 
